@@ -40,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassLogin"
-        app:srcCompat="@drawable/persoicon" />
+        app:srcCompat="@drawable/personIcon" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -50,11 +50,9 @@
         android:background="@color/darkGreen"
         android:onClick="onLogin"
         android:text="@string/login_txt"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgViewPerson"
-        app:layout_constraintVertical_bias="0.289" />
+        app:layout_constraintTop_toBottomOf="@+id/imgViewPerson" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
